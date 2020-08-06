@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 头部 */
+#head{
+    height: 105px;
+background-color: #000;
+width: 100%;
+}
+#header-main {
+    height: 105px;
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 100;
+   
+}
+
+/* 导航 */
+#headnov{
+    
+    width: 100%;
+    height: 48px;
+    
+    position: absolute;
+    bottom: 0;
+   
+    line-height: 18px;
+}
+
+#headnov ul li{
+    float: left;
+height: 48px;
+position: relative;
+z-index: 100;
+padding: 20px;
+    list-style-type: none;
+box-sizing: border-box;
+color: #787878;
+}
+
+#headnov a li:hover::before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    top: auto;
+    left: 18px;
+    height: 3px;
+    width: 70px;
+    background-color: #1d0ac5;
+
+}
+#headnov #headnov03:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    top: auto;
+    left: 250px;
+    height: 3px;
+    width: 90px;
+    background-color: #1d0ac5;
+
+}
+
+#headnov01::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid white;
+	top: 28px;
+    right: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	border: thin s;
+    transform:rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*查询 */
+#headersearch {
+    position: absolute;
+    top: 58px;
+    right: 13px;
+    background-color: cornsilk;
+}
+#search-input {
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: #424242;
+    height: 16px;
+    width: 138px;
+    float: left;
+    background-color: black;
+    color: #595959;
+    padding: 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+#btn-go {
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #424242;
+    width: 40px;
+    background: #424243 url(https://www.sony.com.cn/etc/designs/sonyportal/image/index/searchBg.gif) center right no-repeat;
+        background-image: url("https://www.sony.com.cn/etc/designs/sonyportal/image/index/searchBg.gif");
+    height: 26px;
+    text-indent: -1000px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 0px;
+}
+
+#headersearch:hover #search-input{
+    background-color: white;
+   
+
+    
+}
+#headersearch:hover #btn-go{
+    background-color: white;
+  
+}
+
+
+
+
+
+
+
+/* logo */
+#sonylogo a {
+    float: left;
+    width: 100px;
+    height: 57px;
+    text-indent: -1000px;
+    background: url(https://www.sony.com.cn/etc/designs/sonyportal/image/index/sonyLogo20131220.jpg) no-repeat 0 center;
+    margin-left: 16px;
+}
+#sonylogo {
+    overflow: hidden;
+    display: inline;
+}
+#headinfo a {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+    text-indent: -1000px;
+}
+#sonyhome {
+    width: 150px;
+    height: 24px;
+    background-image: url(https://www.sony.com.cn/content/dam/sonyportal/images/Grouplink_White_EN.png);
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+}
+#headinfo #sonychinabutton {
+    width: 48px;
+    height: 24px;
+    background-image: url(https://www.sony.com.cn/etc/designs/sonyportal/image/index/sonychina_20131220_pic1.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#headinfo{
+    float: right;
+    margin-left: 17px;
+}
+
+
+/* 中间blocks板块 */
+#blocks{
+    margin-top: 40px;
+    background: #f0f1f3;
+    height: 3200px;
+    width: 100%;
+    /* text-align: center; */
+    
+   
+    
+
+}
+/* 数码影像 一系列 */
+#shumafont{
+    width: 1210px;
+    height: 55px;
+    background-color: #f0f1f3;
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tip1{
+display: flex;
+align-items: center;
+    justify-content: center;
+
+}
+#picturegroup1{
+    height: 700px;
+    width: 1210px;
+    background-color: white;
+    margin: auto;
+    
+}
+#picturegroup1-first{
+    float: left;
+
+}
+
+#picturegroup2-first{
+    float: right;
+
+}
+
+
+#picturegroup1table{
+   background-color: #f0f1f3;
+    
+    height: 100%;
+}
+
+
+#smallfirst{
+    
+    background-color: white;
+    width: 25%;
+    height: 50%;
+    float: left;
+    box-sizing: border-box;
+    border: 4px solid #f0f1f3 ;
+    text-align: center;
+    position: relative;
+    
+}
+
+.word1{
+    font-size: 14px;
+    color: #333;
+    display: block;
+   
+    position: absolute;
+    bottom: 41px;
+    left: 100px;
+    font:bold;}
+.word2{
+    
+    color: #666666;
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    left: 75px;
+  
+}
+    /* 新闻  更新 通知*/
+    #news a{
+        color: #595959;
+    }
+
+#news{
+    width: 1210px;
+    height: 636px;
+    background-color:#f0f1f3;
+    margin-top: 110px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+position: relative;
+margin-left: 156px;
+
+}
+
+.newser{
+ 
+display: inline-block;
+    width: 330px;
+    height: 550px;
+    background-color: #f0f1f3;
+    
+    
+
+}
+.newer1{
+    height: 84px;
+    width: 330px;
+    display: flex;
+    padding: 5px;
+}
+#newserpart{
+    padding-top: 12px;
+}
+
+
+#newsleft{
+  display: inline;
+    
+}
+#newsright{
+    
+    margin-left: 20px;
+    height:83px;
+    width:177px;
+    font-size: 12px;
+    
+}
+.inerblock {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.date{
+    display: table-cell;
+    background: #d0d1d3;
+    color: #f0f1f2;
+    padding: 0 5px;
+    line-height: 18px;
+    font-size: 9px;
+    text-align: center;
+    background-size: -11
+}
+.newspciture1{
+    padding-left: 15px;
+    padding-top: 34px;
+}
+
+
+#detail{
+    background: url(https://www.sony.com.cn/images/tit_news_center.gif);
+    width: 80px;
+    height: 45px;
+    overflow: hidden;
+    position: absolute;
+   
+    bottom: 10px;
+    left: 113px;
+}
+
+#detail:hover{
+    background: url(https://www.sony.com.cn/images/tit_news_center.gif)no-repeat 0 -43px;
+}
+
+
+
+
+
+
+/* 集团旗下公司 专题网站 */
+#businessweb{
+    width: 535px;
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 281px;
+}
+.businessone{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_cop_logo_1.jpg);
+}
+.businessone:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_cop_logo_1.jpg) no-repeat 0 -113px;
+}
+#business{
+    width: 490px;
+    height: 235px;
+    
+    
+    
+    margin-left: 282px;
+    margin-top: 34px;
+}
+#business1{
+    width: 490px;
+    height: 235px;
+    
+    margin-left: 750px;
+    margin-top: -235px;
+}
+.businesstwo{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_cop_logo_2.jpg);
+}
+.businesstwo:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_cop_logo_2.jpg) no-repeat 0 -113px;
+}
+.businessthree{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_cop_logo_3.jpg);
+}
+.businessthree:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_cop_logo_3.jpg) no-repeat 0 -113px;
+}
+.businessfour{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/SSS_Banner-01.jpg);
+}
+.businessfour:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/SSS_Banner-01.jpg) no-repeat 0 -113px;
+}
+.businessfive{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/sonyps_logo.jpg);
+}
+.businessfive:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/sonyps_logo.jpg) no-repeat 0 -113px;
+}
+.businesssix{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_sites_logo_2.jpg);
+}
+.businesssix:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_sites_logo_2.jpg) no-repeat 0 -113px;
+}
+.businessseven{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_sites_logo_3.jpg);
+}
+.businessseven:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/index_sites_logo_3.jpg) no-repeat 0 -113px;
+}
+
+.businesseight{
+    display: inline-block;
+    overflow: hidden;
+    width: 152px;
+    height: 114px;
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/subc_20190927.jpg);
+}
+.businesseight:hover{
+    background: url(https://www.sony.com.cn/content/dam/sonyportal/images/subc_20190927.jpg) no-repeat 0 -113px;
+}
+
+#bottomer{
+    width: 100%;
+    height: 421.8px;
+    
+    margin-top: 1037px;
+}

@@ -1,0 +1,37 @@
+.swiper-container {
+    width: 1210px;
+    height:520px;
+}
+
+.swiper-slide img {
+    width: 1210px;
+    height: 520px;
+}
+.swiper-pagination-bullet{
+    background-color: rgb(33, 6, 107);
+    height: 20px;
+    width: 20px;
+
+}
+.swiper-pagination-bullet-active{
+    width: 35px;
+    height: 20px;
+    border-radius: 15px;
+}
+.swiper-scrollbar{
+    background-color: pink;
+    width: 520px;
+}
+.swiper-scrollbar-drag{
+    background-color: black;
+}
+.swiper-button-next{
+    color: white;
+
+
+}
+.swiper-button-prev{
+    color: white;
+
+
+}
