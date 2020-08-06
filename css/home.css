@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* 头部 */
 #head{
     height: 105px;
@@ -471,9 +472,181 @@ display: inline-block;
     background: url(https://www.sony.com.cn/content/dam/sonyportal/images/subc_20190927.jpg) no-repeat 0 -113px;
 }
 
-#bottomer{
+/* 底部 */
+.bottom_id {
     width: 100%;
-    height: 421.8px;
+    height: 476px;
+    background-color: #1f2024;
+    margin-top: 1040px;
+}
+
+
+.bottom_above_id {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #333438;
+}
+
+.bottom_above {
+    width: 960px;
+    height: 223px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 38.5px 0;
+}
+
+.bottom_above_content {
+    padding-top: 30px 0;
+    width: 960px;
+    height: 223px;
+}
+
+.bottom_above_div ul {
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.bottom_above_div li {
+    list-style: none;
+    line-height: 23px;
+}
+
+.bottom_above_div a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom_above_div a:hover {
+    color: #50BCDA;
     
-    margin-top: 1037px;
+}
+
+.bottom_above_div {
+    width: 192px;
+    height: 223px;
+    float: left;
+}
+
+#bottom_weibo:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#bottom_weixin:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom_above_more {
+    width: 142px;
+    height: 40px;
+    display: block;
+    background-color: #424243;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom_above_more:hover {
+    background-color: #50bcfd;
+}
+
+
+.bottom_below {
+    width: 960px;
+    height: 123px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 26px 8px;
+}
+
+.bottom_below_above {
+    width: 960px;
+    height: 73px;
+}
+
+.bottom_icp {
+    width: 960px;
+    height: 20px;
+    font-size: 3px;
+    color: gray
+}
+
+.bottom_icp a {
+    text-decoration: none;
+    color: grey;
+}
+
+.bottom_icp a:hover {
+    color: #fff;
+}
+
+.bottom_icp2 {
+    margin-left: 20px;
+}
+
+.bottom_icp3 {
+    margin-left: 20px;
+}
+
+.bottom_icp4 {
+    margin-left: 30px;
+}
+
+.bottom_icp5 {
+    margin-left: 40px;
+}
+
+.bottom_link {
+    width: 960px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.bottom_link_content {
+    display: block;
+    list-style: none;
+    font-size: 3px;
+    color: grey;
+    margin-left: 30px;
+}
+
+.bottom_link_content li {
+    float: left;
+    margin-left: 15px;
+}
+
+.bottom_link_content a {
+    color: grey;
+    text-decoration: none;
+    float: left;
+    margin-left: 15px;
+}
+
+.bottom_link_content a:hover {
+    color: white;
+}
+
+.bottom_this {
+    color: grey;
+    font-size: 3px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.bottom_this a {
+    color: grey;
+}
+
+.bottom_this a:hover {
+    color: white;
+}
+
+.sharearea {
+    width: 170px;
+    height: 40px;
+    float: right;
+    margin-right: 50px;
+    overflow: hidden;
 }
