@@ -1,0 +1,92 @@
+#newscenter{
+	overflow: hidden; 
+	width:100%; 
+	position: relative; 
+	margin-top: 44px;
+}
+#newscenter_title{
+	width: 940px;
+    margin: 0px auto -12px;
+    padding: 0px 10px;
+    position: relative;
+}
+#newscenter_title h2{
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+#newscenter_list{
+	width: 100%;
+}
+#newscenter_list_area {
+	width:960px;
+	 margin: 0px auto; 
+	 position: relative; 
+	 height: 272px;
+}
+#newscenter_list_area ul{
+	position: absolute;
+	width: 2880px; 
+	top: 0px; 
+	left: 0px;
+	height: 272px;
+	z-index:50;
+}
+#newscenter_list_area li{
+	float: left;
+	width: 232px; 
+	margin-right: 4px; 
+	display: inline;
+	margin-left:4px;
+	position:relative;
+}
+#newscenter_list_area a{
+	color: #595959; 
+	font-size: 14px; 
+	line-height: 18px; 
+	text-decoration: none;
+}
+#newscenter_list_area a:hover{
+	color: #595959;
+}
+#newscenter_list_area a .news_detail{
+	background-color: #eff0f1; 
+	height: 100px; font-size: 14px; 
+	font-weight: inherit; 
+	position: relative;
+}
+#newscenter_list_area a:hover .news_detail {
+	background-color: #eff0f1;
+}
+#newscenter_list_area a .icon{
+	position:absolute;
+	left:15px;
+	top:156px;
+}
+#newscenter_list_area p{
+	padding: 14px 40px 15px 15px;
+	line-height:20px
+}
+#newscenter_list_area a del{
+	width: 15px; 
+	height: 15px; 
+	display: block; 
+	position: absolute; 
+	top: 15px; 
+	right: 15px; 
+	background-image: url(../img/icon_img_jiantou.gif); 
+	background-repeat: no-repeat; 
+	background-position: 0px -21px;
+	overflow:hidden
+}
+#newscenter_list_area a del.gallery{
+	background-image: url(../img/icon_img_jiantou.gif); 
+	width: 15px; 
+	height: 15px; 
+	background-position: 0px -18px;
+}
+#newscenter_list_area a:hover del{
+	background-position: 0px 0px;
+}
+#newscenter_list_area a:hover *{
+	cursor: pointer;
+}
