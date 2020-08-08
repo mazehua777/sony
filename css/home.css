@@ -83,9 +83,99 @@ font-size: 13px;
 
 /* 导航下拉 */
 
+.nav_menu {
+    position: absolute;
+    z-index: 999;
+    width: 641px;
+    height: 508px;
+    top: 49px;
+    background: #fff;
+    box-shadow: 0px 1px 10px #555;
 
+    display: none;
+}
 
+.nav_menu_above {
+    width: 960px;
+    height: 444px;
+}
 
+.nav_menu_above_left {
+    width: 640px;
+    height: 444px;
+    position: relative;
+    float: left;
+}
+
+.nav_menu_below {
+    width: 936px;
+    height: 36px;
+    padding-top: 28px;
+    padding-left: 24px;
+}
+
+.nav_menu_above_left_top {
+    width: 640px;
+    height: 60px;
+    background: #f0f1f2;
+}
+
+.nav_menu_above_left_top>a {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav_menu_above_left_top>img {
+    float: left;
+    margin-top: 25px;
+    margin-left: 14px;
+}
+
+.nav_menu_content {
+    width: 640px;
+    height: 384px;
+    font-size: 12px;
+    line-height: 18px;
+    /* border-right: 1px solid red; */
+}
+
+.nav_menu_content>div {
+    float: left;
+    top: 0;
+}
+
+.nav_lists>ul {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 14px;
+    width: 160px;
+}
+
+.nav_lists a {
+    text-decoration: none;
+    color: #6F6F6F;
+}
+
+.nav_lists a:hover {
+    color: #009ffb;
+    
+}
+
+.nav_lists li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.nav_lists {
+    width: 160px;
+    height: 385px;
+    position: relative;
+}
+
+#headnov01:hover .nav_menu{
+    display: block;
+    
+}
 
 
 
