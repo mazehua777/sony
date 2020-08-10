@@ -1,0 +1,157 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+#mainAll div{
+	display: block;
+}
+#mainAll a{
+	text-decoration: none;
+}
+#mainAll ul{
+	list-style: none;
+}
+#header{
+	height: 105px;
+	background-color:#000000;
+	width: 100%;
+}
+#header_main{
+	height: 105px;
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 100;
+}
+.clearfix{
+	height: 57px;
+}
+#headerSearch{
+	position: absolute;
+    top: 58px;
+    right: 13px;
+}
+#sonylogo{
+	display: inline;
+	overflow: hidden;
+}
+#sonylogo a{
+	float: left;
+    width: 100px;
+    height: 57px;
+    text-indent: -1000px;
+    background: url(../img/sonyLogo.jpg) no-repeat 0 center;
+    margin-left: 16px;
+}
+#header_userInfo{
+	float: right;
+    margin-right: 17px;
+}
+#header_userInfo a{
+	display: block;
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+    text-indent: -1000px;
+}
+#header_userInfo #sonyGlobeHome:hover{
+	background-image: url(../img/GroupLink_White_Hober_EN.png);
+}
+#sonyGlobeHome{
+	width: 150px;
+    height: 24px;
+    background-image: url(../img/Grouplink_White_EN.png);
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+}
+#sonyChinaButton{
+	width: 48px;
+    height: 24px;
+    background-image: url(../img/sonychina.jpg);
+    background-repeat: no-repeat;
+    cursor: default;
+}
+#headerNav{
+	width: 100%;
+	height: 48px;
+}
+#headerNav li, #headerNav a.menu {
+    float: left;
+    height: 48px;
+    position: relative;
+    z-index: 100;
+}
+#headerNav a.menu{
+	background-image: url(../img/sony_nav.jpg);
+	background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -1000px;
+}
+#headerNav1 a.menu{
+	background-image: url(../img/sony_nav.jpg);
+    width: 103px;
+    background-position: 0px 0px;
+}
+#headerNav2 a.menu{
+    width: 110px;
+    background-position: -103px 0px;
+}
+#headerNav3 a.menu{
+    width: 124px;
+    background-position: -213px 0px;
+}
+#headerNav4 a.menu{
+    width: 96px;
+    background-position: -337px 0px;
+}
+#headerNav5 a.menu{
+	width: 95px;
+    background-position: -433px -48px;
+}
+#headerNav6 a.menu{
+    width: 90px;
+    background-position: -528px 0px;
+}
+#headerNav1 a:hover,#headerNav01 a.active{
+	background-position: 0px -48px;
+}
+#headerNav2 a:hover,#headerNav02 a.active{
+	background-position: -103px -48px;
+}
+#headerNav3 a:hover,#headerNav03 a.active{
+	background-position: -213px -48px;
+}
+#headerNav4 a:hover,#headerNav04 a.active{
+	background-position: -337px -48px;
+}
+#headerNav5 a:hover,#headerNav05 a.active {
+	background-position: -433px -48px;
+}
+#headerNav6 a:hover,#headerNav06 a.active {
+	background-position: -528px -48px;
+}
+#search_input {
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: #424242;
+    height: 16px;
+    width: 138px;
+    float: left;
+    background-color: black;
+    color: #595959;
+    padding: 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+#btn_go {
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #424242;
+    width: 40px;
+    background: #424243 url(../img/searchBg.gif) center right no-repeat;
+    height: 26px;
+    text-indent: -1000px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 0px;
+}

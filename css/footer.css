@@ -1,0 +1,167 @@
+#footer {
+    background-color: #1f2024;
+    margin-top: 40px;
+    width: 100%;
+	bottom: 0;
+}
+#footerBody {
+    width: 944px;
+    margin: 0px auto;
+    padding: 26px 8px;
+}
+#footer_ip{
+	width: 80%;
+	float: left;
+}
+#footer_ip_list1{
+	margin-left: 6px;
+}
+#footer_ip img, #footer_ip span {
+    vertical-align: middle;
+    padding-right: 12px;
+}
+#footer_ip a {
+    color: #3E3F43;
+    text-indent: -100000px;
+    display: inline-block;
+}
+#footer_ip_list1 .banquan {
+    background: url(../img/footlink_pic_7.gif) no-repeat scroll 0 0px transparent;
+    width: 193px;
+    height: 11px;
+    line-height: 11px;
+    display: inline-block;
+    margin-left: 9px;
+}
+#footer_ip_list1 .jingbei{
+	background:url(../img/footlink_pic_4.gif) no-repeat scroll 0 0px transparent;
+	width:103px;
+	height:11px;
+	line-height:11px;
+	margin-left:15px;
+}
+#footer_ip_list1 .jingbei:hover{
+	background-position:0 -11px;
+}
+#footer_ip_list1 .chengxin{
+	background:url(../img/footlink_pic_5.gif) no-repeat scroll 0 0px transparent;
+	width:61px;
+	height:11px;
+	line-height:11px;
+	margin-left:5px
+}
+#footer_ip_list1 .chengxin:hover{
+	background-position:0 -11px;
+}
+#footer_ip_list1 .police img{
+	vertical-align: middle;
+    display: block;
+    width: 161px;
+    padding-top: 4px;
+}
+#footer_ip_list1 span:nth-of-type(4){
+	margin-left: -16px;
+}
+#footer_ip_list2{
+	margin-top: 15px;
+    margin-left: 6px;
+}
+#footer_ip_list2 li {
+    float: left;
+    margin-right: 26px;
+}
+#footer_ip_list2 li a {
+    color: #8f9092;
+    text-indent: -1000px;
+    display: block;
+}
+#footer_ip_list2 .respon{
+	background:url(../img/footlink_pic_1.gif) no-repeat;
+	width:50px;
+	height:14px;
+	background-position:0 -14px;
+	line-height:14px
+}
+#footer_ip_list2 .respon:hover{
+	background-position:0 0
+}
+#footer_ip_list2 .quanzhan{
+	background:url(../img/footlink_pic_2.gif) no-repeat;
+	width:48px;
+	height:14px;
+	background-position:0 -14px;
+	line-height:14px
+}
+#footer_ip_list2 .quanzhan:hover{
+	background-position:0 0
+}
+#footer_ip_list2 .secret{
+	background:url(../img/footlink_pic_8.gif) no-repeat;
+	width:48px;
+	height:14px;
+	background-position:0 -14px;
+	line-height:14px
+}
+#footer_ip_list2 .secret:hover{
+	background-position:0 0
+}
+#footer_ip_list2 li:nth-of-type(4){
+	margin-left: 2px;
+    margin-right: 0px;
+    line-height: 14px;
+    width: 410px;
+}
+#footer_ip_list2 li:nth-of-type(4) a{
+	color: #494a4d;
+    text-indent: 0px;
+    float: left;
+}
+#footer_ip_list2 li:nth-of-type(4) div{
+    color: #494a4d;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#footer_sharearea{
+    float: right;
+    margin-top: 20px;
+    margin-right: -8px;
+}
+#footer_sharearea a {
+    background: url(../img/index_share_bg.gif);
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-left: 3px;
+}
+#footer_sharearea .share_sina{
+	background-position:-5px -5px;
+}
+#footer_sharearea .share_sina:hover{
+	background-position:-5px -45px;
+}
+#footer_sharearea .share_qq{
+	background-position:-38px -5px;
+}
+#footer_sharearea .share_qq:hover{
+	background-position:-38px -45px;
+}
+#footer_sharearea .share_sohu{
+	background-position:-71px -5px;
+}
+#footer_sharearea .share_sohu:hover{
+	background-position:-71px -45px;
+}
+#footer_sharearea .share_renren{
+	background-position:-104px -5px;
+}
+#footer_sharearea .share_renren:hover{
+	background-position:-104px -45px;
+}
+#footer_sharearea .share_kaixin{
+	background-position:-137px -5px;
+}
+#footer_sharearea .share_kaixin:hover{
+	background-position:-137px -45px;
+}
