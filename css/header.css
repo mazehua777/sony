@@ -2,9 +2,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     padding: 0;
     margin: 0;
 }
-#mainAll div{
-	display: block;
-}
+
 #mainAll a{
 	text-decoration: none;
 }
@@ -112,22 +110,39 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     width: 90px;
     background-position: -528px 0px;
 }
-#headerNav1 a:hover,#headerNav01 a.active{
+.subMenuBlock{
+	position: absolute;
+	display: none;
+	width: 960px;
+	background: #fff;
+	top: 48px;
+	left: 0px;
+	z-index: 100;
+	-webkit-box-shadow:0px 1px 10px #555;
+	-moz-box-shadow:0px 1px 10px #555; 
+	box-shadow:0px 1px 10px #555;
+}
+#headerNav1:hover  .subMenuBlock{
+	display: block;
+}
+
+#headerNav1 a:hover {
 	background-position: 0px -48px;
 }
-#headerNav2 a:hover,#headerNav02 a.active{
+
+#headerNav2 a:hover {
 	background-position: -103px -48px;
 }
-#headerNav3 a:hover,#headerNav03 a.active{
+#headerNav3 a:hover {
 	background-position: -213px -48px;
 }
-#headerNav4 a:hover,#headerNav04 a.active{
+#headerNav4 a:hover {
 	background-position: -337px -48px;
 }
-#headerNav5 a:hover,#headerNav05 a.active {
+#headerNav5 a:hover {
 	background-position: -433px -48px;
 }
-#headerNav6 a:hover,#headerNav06 a.active {
+#headerNav6 a:hover {
 	background-position: -528px -48px;
 }
 #search_input {
@@ -154,4 +169,134 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     overflow: hidden;
     float: left;
     padding: 5px 0px;
+}
+.subMenuContent{
+	overflow: hidden;
+}
+.subMenuContent_left{
+	float: left;
+	width: 640px;
+}
+.subMenuContent_right{
+	float: left;
+	width: 320px;
+}
+#gotobutton{
+	width: 139px; 
+	height: 60px; 
+	overflow: hidden; 
+	background-image: url(../img/subheader2.png); 
+	background-position: 0px 0px; 
+	background-repeat: no-repeat; 
+	text-indent: -1000px; 
+	float: right; 
+	margin-right: 20px;
+}
+#gotobutton:hover{
+	background-position: 0px -60px;
+}
+#gotoforum{
+	width: 139px; 
+	height: 60px; 
+	overflow: hidden; 
+	background-image: url(../img/subheader3.gif); 
+	background-position: 0px 0px; 
+	background-repeat: no-repeat; 
+	text-indent: -1000px; 
+	float: right; 
+	margin-right: 20px;
+}
+#gotoforum:hover{
+	background-position: 0px -60px;
+}
+#gotonextbutton{
+	width: 106px; 
+	height: 60px; 
+	overflow: hidden; 
+	background-image: url(../img/subheader5.gif); 
+	background-position: 0px 0px; 
+	background-repeat: no-repeat; 
+	text-indent: -1000px; 
+	float: right; 
+	margin-right: 20px;
+}
+#gotonextbutton:hover{
+	background-position: 0px -60px;
+}
+.subMenuContent_left .subtitle{
+	margin-top: 25px;
+	margin-left: 14px; 
+	float: left;
+}
+.subMenuContent_right .subtitle{
+	margin-top: 25px;
+	margin-left: 19px;
+	float: left;
+}
+.subMenuContent_left .subheader{
+	background: #f0f1f2;
+	height: 60px;
+}
+.subMenuContent_right .subheader{
+	background: #e6e6e8;
+	height: 60px;
+}
+.sublist{
+	float: left;
+	width:160px ;
+}
+.sublist dl{
+	padding-left: 14px; 
+	margin-top: 20px;
+	
+}
+.sublist dd{
+	padding: 0px 0px; 
+	line-height: 22px; 
+	display: block;
+} 
+.sublist dd    a {
+	display: block; 
+	font-size: 12px; 
+	line-height: 22px; 
+	color: #949494; 
+	padding-left: 10px; 
+	background: url(../img/navMenuIcon.gif) 0px 8px no-repeat #ffffff;
+}
+.sublist dd    a:hover{
+    background:  url(../img/navMenuIcon.gif) 0px -88px no-repeat  #fff; 
+    color: #50BCFD;
+}
+.sublist > .sublistlink{ 
+	margin-top: 0px;
+}
+.absolute{
+	top: 16px;
+}
+.absolute > .absolutehover{
+	height:18px;
+	width:130px;
+	text-indent:-1000px;
+	display:block;
+	margin-top:10px;
+	margin-left:-2px;
+	line-height:11px;
+	overflow:hidden;
+} 
+.absolutehover :hover{
+	background-position:0px -11px;
+}
+.sublistlink a{
+	color: #000;
+}
+.sublistlink a:hover{
+	color: #33b2fc;
+}
+.liststyle{
+	margin: 0px 0px 5px;
+}
+.subMenuFooter{
+	height: 36px;
+    padding-top: 28px;
+    padding-left: 24px;
 }
