@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0" />
+    <title>索尼中国在线商城</title>
+    <script src="./js/app_home.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/sonystore.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+<body>
+    <div id="all">
+ <!--头部  -->
+        <div id="header">
+            <div id="headerlogo">
+                <img src="https://www.sonystyle.com.cn/etc/designs/sonystyle/images/sony-logo.jpg"/>
+            </div>
+            <img src="https://www.sonystyle.com.cn/etc/designs/sonystyle/images/mob_navbtn_1.jpg" class="headerpictrue1" />
+            <img src="https://www.sonystyle.com.cn/etc/designs/sonystyle/images/mob_navbtn_3.jpg" class="headerpicture2"/>
+            
+        </div>
+
+<!-- 轮播 -->
+        <div id="lunbo">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://www.sonystyle.com.cn/content/dam/sonystyle/common/homepage/kv/kv_wh_1000xm4_m.jpg "/></div>
+                    <div class="swiper-slide"><img src="https://www.sonystyle.com.cn/content/dam/sonystyle/common/homepage/kv/kv_ht_g700_new_m.jpg"/></div>
+                    <div class="swiper-slide"><img src="https://www.sonystyle.com.cn/content/dam/sonystyle/common/homepage/kv/kv_a7sm3_ys200731_m.jpg"/></div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+                
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                
+                
+            </div>
+
+        </div>
+
+<!-- 登录注册 -->
+         <div id="login">
+             <img src="https://www.sonystyle.com.cn/etc/designs/sonystyle/images/homepage/icon.png" />
+             <div id="loginer">
+<span class="word1">你好!  请</span> 
+<span class="word2"> &nbsp&nbsp&nbsp&nbsp登录/注册</span>
+             </div>
+
+            <div class="word3">新人礼包</div>
+            <div class="word4">产品注册</div>
+            <div id="wordgroup">
+            <div class="word5">我的账户</div>
+            <div class="word5">我的账户</div>
+            <div class="word5">我的账户</div>
+            <div class="word5">我的账户</div>
+
+            </div>
+
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
+          autoplay: true,
+          // 分页器
+          pagination: {
+            el: '.swiper-pagination',
+            clickable :true,
+          },
+          // 前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+       
+        })       
+        </script>
+          </script>
+</body>
+</html>
