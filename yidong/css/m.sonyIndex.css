@@ -1,0 +1,195 @@
+html {
+	font-size: 100px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+.page {
+	width: 7.5rem;
+	margin: 0 auto;
+	
+}
+.header {
+	height: .9rem;
+	width: 7.5rem;
+	background-color: #000;
+	position: relative;
+}
+.logo {
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: url(https://www.sony.com.cn/etc/designs/sonyportal/image/logo.png) no-repeat center center;
+	background-size: 1.7rem;
+}
+.menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: .8rem;
+	height: .9rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu span{
+	width: .32rem;
+	height: .32rem;
+	display: block;
+	background: url(https://www.sony.com.cn/etc/designs/sonyportal/image/menu-btn.png);
+	background-size: cover;
+}
+.menu span:hover {
+	background: url(https://www.sony.com.cn/etc/designs/sonyportal/image/close.png) no-repeat center center;
+}
+.menu span:hover+.drop-domn {
+	display: block;
+}
+.drop-domn {
+	width: 4.5rem;
+	background-color: #000000;
+	position: absolute;
+	right: 0;
+	top: .9rem;
+	font-size: .26rem;
+	display: none;
+	z-index: 2;
+}
+.drop-domn li:first-child {
+	border-top: .01rem solid #6F6F6F;
+}
+.drop-domn li {
+	line-height: .7rem;
+	padding-left: .3rem;
+	letter-spacing: .02rem;
+	border-bottom: .01rem solid #6F6F6F;
+}
+.drop-domn li a {
+	display: block;
+	color: #fff;
+}
+.main {
+	overflow: hidden;
+	width: 7.5rem;
+	height: 9.5rem;
+}
+.big {
+	width: 37.50rem;
+	height: 9.5rem;
+}
+.big li {
+	float: left;
+}
+.big li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.big li a img {
+	vertical-align: top;
+	width: 100%;
+}
+.page .main .swiper-pagination-bullet{
+	height: .1rem;
+	width: .1rem;
+    }
+.page .main .swiper-pagination-bullet-active{
+	width: .25rem;
+	height: .1rem;
+	border-radius: .05rem;
+	background-color: deepskyblue;
+} 
+.page .main  .swiper-button-prev ,.page .main  .swiper-button-next{
+	color: #fff;
+}
+.produts {
+	background-color: #f0f1f3;
+}
+.title {
+	height: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tit {
+	background: url(https://www.sony.com.cn/content/dam/sonystyle/common/othericon/blocktitlelogo.png) no-repeat left center;
+	font-size: .32rem;
+	padding-left: .7rem;
+	background-size: contain;
+	margin: 0 auto;
+}
+.pro2 .tit {
+	background: url(https://www.sony.com.cn/content/dam/sonystyle/common/othericon/blocktitlelogo2.png) no-repeat left center;
+	background-size: contain;
+}
+.pro3 .tit {
+	background: url(https://www.sony.com.cn/content/dam/sonystyle/common/othericon/blocktitlelogo3.png) no-repeat left center;
+	background-size: contain;
+}
+.pro4 .tit {
+	background: url(https://www.sony.com.cn/content/dam/sonystyle/common/othericon/znyj_36x36.png) no-repeat left center;
+	background-size: contain;
+}
+.produts-img {
+	width: 100%;
+}
+.produts-img a {
+	display: block;
+	width: 100%;
+	
+}
+.img0 {
+	margin: 0 .05rem .1rem;
+}
+.img0 img {
+	width: 100%;
+	vertical-align: top;
+}
+.produts-icon {
+	height: 7.5rem;
+}
+.produts-icon a{
+	display: block;
+	width: 3.75rem;
+	height: 3.75rem;
+	float: left;
+}
+.icon {
+	margin: 0 .05rem .1rem;
+	height: 3.65rem;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+}
+.icon img {
+	width: 2.2rem;
+}
+.desc {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: .75rem;
+}
+.desc h3 {
+	font-size: .32rem;
+	color: #333;
+}
+.desc p {
+	font-size: .18rem;
+	color: #666;
+}
+.detail {
+	background: url(https://www.sony.com.cn/content/dam/sonystyle/common/homepage/category/intelligent/block_xperia_video2007_295345.jpg) no-repeat;
+	background-size: 100% auto;
+}
+.pro4 {
+	padding-bottom: .4rem;
+}
