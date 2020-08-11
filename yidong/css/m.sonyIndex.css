@@ -11,7 +11,16 @@ li {
 a {
 	text-decoration: none;
 }
-
+.clearfix:before, .clearfix:after {
+	Content: "";
+	Display: table;
+}
+.clearfix:after {
+	Clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
 .page {
 	width: 7.5rem;
 	margin: 0 auto;
@@ -192,4 +201,135 @@ a {
 }
 .pro4 {
 	padding-bottom: .4rem;
+}
+.news {
+	margin-left: .08rem;
+	margin-right: .08rem;
+	margin-top: .55rem;
+	background-color: #f0f1f3;
+}
+.unit-tit {
+	height: .3rem;
+	width: 100%;
+	display: block;
+	padding: .24rem .15rem;
+	
+}
+.unit-tit img {
+	vertical-align: top;
+	height: .3rem;
+}
+.news-list li {
+	height: 1.68rem;
+	width: 100%;
+	margin-left: .04rem;
+	margin-bottom: .08rem;
+}
+.news-list li img {
+	height: 1.68rem;
+	float: left;
+	margin-right: .17rem;
+	vertical-align: top;
+}
+.news-tit {
+	float: left;
+	padding-right: .25rem;
+	width: 4.25rem;
+}
+.news-tit div:nth-child(1) {
+	height: .4rem;
+}
+.news-tit .date {
+	font-size: .2rem;
+	vertical-align: top;
+	line-height: .4rem;
+	width: 1.15rem;
+	color: #f0f1f2;
+	background-color: #d0d1d3;
+}
+.news-tit .news-text {
+	font-size: .22rem;
+	
+}
+.news-text a {
+	color: #595959;
+}
+.subCompany {
+	margin-top: .2rem;
+	margin-left: .08rem;
+	margin-right: .08rem;
+}
+.subCompany .subCompany-title span {
+	height: .3rem;
+	display: block;
+	line-height: .4rem;
+	padding-left: .15rem;
+}
+.subCompany-title img {
+	height: .3rem;
+}
+.subCompany-bd  {
+	margin-top: .6rem;
+}
+.subCompany-bd ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -.06rem;
+}
+.subCompany-bd ul li {
+	margin-top: .05rem;
+	margin-left: .1rem;
+	
+	
+}
+.subCompany-bd ul li a {
+	width: 3.56rem;
+	height: 2.7rem;
+	display: block;
+	overflow: hidden;
+}
+.subCompany-bd ul li a img {
+	width: 100%;
+	
+}
+.footer {
+	height: 12.55rem;
+	width: 100%;
+	background-color: #1f2024;
+	margin-top: .6rem;
+}
+.footer-top {
+	padding: .5rem .8rem .8rem;
+	border-bottom: 1px solid #333438;
+	position: relative;
+}
+.footer-title {
+	width: 3rem;
+	height: .24rem;
+}
+.left {
+	margin-bottom: .3rem;
+}
+.footer-title img {
+	vertical-align: top;
+}
+.col li {
+	height: .42rem;
+	display: block;
+}
+.col li a {
+	font-size: .2rem;
+	display: block;
+	color: #FFFFFF;
+}
+.right {
+	position: absolute;
+	right: 0;
+	top: 1.6rem;
+}
+.weibo {
+	width: 1.42rem;
+	height: .40rem;
+	margin-bottom: .05rem;
+	background: url(https://www.sony.com.cn/etc/designs/sonyportal/image/index/sony_china_weibo.gif);
 }
