@@ -46,14 +46,11 @@ body{
     margin-bottom: -0.1rem;
 
 }
-/* 轮播 */
+/* 轮播1 */
 #lunbo{
     width: 100%;
     height: 9.5rem;
 }
-
-
-
 
 .swiper-container {
     width: 100%;
@@ -172,4 +169,150 @@ body{
   margin-left: 2.0rem;
   margin-top: -0.45rem;
 }
+ /*  中间菜单*/
+ #meau{
+     width: 100%;
+     height: 1.48rem;
+  
+     margin-top: 0.2rem;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .bbs{
+     background-color: white;
+     display: inline-flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .bbs img{
+     width: 1.48rem;
+     height: 1.48rem;
+ }
+
+/* 轮播2 */
+#lunbo2{
+    width: 100%;
+    height: 7rem;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 7rem
+}
+.swiper-slide img {
+    width: 7.05rem;
+    height: 7rem;
+}
+.swiper-pagination-bullet{
+    background-color: red;
+    height: 0.2rem;
+    width: 0.2rem;
+
+}
+.swiper-pagination-bullet-active{
+    width: 0.35rem;
+    height: 0.2rem;
+    border-radius: 0.15rem;
+}
+.swiper-scrollbar{
+    background-color: pink;
+    width: 5.2rem;
+}
+.swiper-scrollbar-drag{
+    background-color: black;
+}
+.swiper-button-next{
+    color: rgb(236, 236, 238);
+
+
+}
+.swiper-slide{
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-slide img{
+    padding: 0.1rem;
+}
+/* 最近活动 */
+#activitys{
+    font-size: 0.24rem;
+    padding: 0.15rem 0;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 新品发布 */
+#news{
+    width: 100%;
+    background-color: white;
+    height: 11rem;
     
+    justify-content: center;
+    
+}
+
+#tip2{
+    font-size: 0.24rem;
+    padding: 0.15rem 0;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+
+}
+#newser{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin: auto;
+}
+#newser img{
+    width: 3.53rem;
+    height: 4.61rem;
+    padding: 0.1rem;
+    position: relative;
+    
+}
+
+.newserword1{
+    font-size: 0.32rem;
+    text-align: left;
+    padding: 5px 0;
+    color: #333333 !important;
+    font-weight: normal;
+    position: absolute  ;
+    margin-left: 0.7rem;
+    margin-top: 0.25rem;
+    z-index: 2;
+
+
+}
+.newserword2{
+    font-size: 0.24rem;
+    text-align: left;
+    color: #666666 !important;
+    margin: 5px 0;
+    font-weight: normal;
+    position: absolute  ;
+    margin-left: 0.7rem;
+    margin-top: 1.3rem;
+    z-index: 2;
+    font-family: "微软雅黑",Arial;
+    font-weight: lighter;
+}
+.newserword3{
+    font-size: 0.2rem;
+    text-align: left;
+    color: #0a83d7;     
+    margin: 5px 0;
+    font-weight: bold;
+    position: absolute  ;
+    margin-left: 0.7rem;
+    margin-top: 2.0rem;
+    z-index: 2;
+    font-family: "微软雅黑",Arial;
+    
+}
