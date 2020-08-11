@@ -316,3 +316,145 @@ body{
     font-family: "微软雅黑",Arial;
     
 }
+/* 在线直播 */
+#live{
+width:7.2rem ;
+height: 9.48rem;
+}
+
+#livetop{
+    width: 7.1rem;
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+    
+}
+#livetop h2{
+    display: inline;
+    margin: 0 auto;
+    padding: 0.1rem 0 0.1rempx 0.42rempx;
+    font-size: 0.24rem;
+    font-weight: normal;
+}
+#livetop h2 img{
+    padding-right: 0.1rem;
+    width: 0.25rem;
+    height: 0.3rem;
+    
+}
+
+#livetoper{
+
+height: 0.25rem;
+display: flex;
+}
+ #livetoper span{
+    font-size: 0.18rem;
+    font-weight: normal;
+    color: #6b6b6b;
+    
+}
+#live img{
+    width: 7.1rem;
+    height: 4.08rem;
+}
+#livetoper1{
+    width: 7rem;
+    height: 4.03rem;
+    display: flex;
+    justify-content: space-around;
+}
+#livetoper1 img{
+height: 4.03rem;
+width: 3.45rem;
+}
+/* 数码影像 */
+#tip3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#tip3 img{
+width: 0.36rem;
+height: 0.28rem;
+}
+#tip3 h2{
+    font-size: 0.24rem;
+    font-weight: normal;
+}
+#tip4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#tip4 span{
+    font-family: "微软雅黑",Arial;
+    font-size: 0.18rem;
+    font-weight: normal;
+    color: #6b6b6b;
+}
+#shumabig img{
+    width: 7.1rem;
+    height: 8.28rem;
+}
+.shumasmall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 3.45rem;
+    height: 4.03rem;
+}
+.shumasmall img{
+width: 2.21rem;
+height: 2.21rem;
+margin: auto;
+}
+.shumaword1{
+font-size: 0.2rem;
+color: #333;
+font-family: "微软雅黑",Arial;
+}
+.shumaword2{
+    font-size: 0.2rem;
+    color: #666;
+    font-family: "微软雅黑",Arial;
+    margin-top: 0.15rem;
+    font-weight: lighter;
+}
+.shumaword3{
+    font-size: 0.2rem;
+    font-weight: 5rem;
+    color: #0a83d7;
+    font-family: "微软雅黑",Arial;
+    margin-top: 0.15rem;
+    font-weight: lighter;
+}
+.shumap{
+    display: flex;
+
+}
+    
+.shumahuge img{
+    width: 7.1rem;
+    height: 8.28rem;
+
+}
+.shumasearch{
+    width: 7.06rem;
+    height: 0.2rem;
+    display: block;
+    padding: 10px 0;
+    border: 1px #ccc solid;
+    background: url(https://www.sonystyle.com.cn/etc/designs/sonystyle/images/BlockBottom_mobileplus.jpg) no-repeat #fff 96% 10px;
+}
+.shumasearch span{
+    font-size: 0.18rem;
+    margin-left: 0.1rem;
+    float: left;
+    font-weight: bold;
+    
+    color: #2591da;
+}
