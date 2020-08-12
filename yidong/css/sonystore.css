@@ -458,3 +458,72 @@ font-family: "微软雅黑",Arial;
     
     color: #2591da;
 }
+/* 新闻通知 */
+#notice{
+    background-color: white;
+    height: 4.72rem;
+    width: 7.08rem;
+}
+#tip5{
+   margin-left: 0.5rem; 
+}
+#tip5 h2{
+    margin-top: 0.25rem;
+    font-size: 0.22rem;
+    text-align: left;
+    margin: 0.1rem 0;
+    font-weight: normal;
+    font-family: "微软雅黑",Arial;
+}
+#tip6{
+    width: 6.12rem;
+    height: 4.95rem;
+}
+#tip7{
+    color: #ccc;
+    font-family: "微软雅黑",Arial;
+    font-size: 0.12rem;  
+}
+#tip8{
+    color: #000;
+    font-family: "微软雅黑",Arial;
+    font-size: 0.12rem;
+}
+#htip{
+    margin-left: 0.5rem;
+}
+hr{
+    margin-top: -1.2rem;
+}
+/* 关注我们 */
+#us{
+    background-color: white;
+}
+#tip9 h2{
+   
+    font-size: 0.22rem;
+    text-align: left;
+    margin: 0.1rem 0;
+    font-weight: normal;
+    font-family: "微软雅黑",Arial;
+    background-color: white;
+    margin-left:0.5rem ;
+}
+.guanzhu{
+    display: flex;
+    margin-left:0.5rem ;
+
+}
+.guanzhu img{
+    
+    width: 1.76rem;
+    height: 1.73rem;
+}
+#tip10 img{
+
+    width: 1.76rem;
+    height: 1.73rem;
+}
+#tip10{
+    margin-left: 0.5rem;
+}
