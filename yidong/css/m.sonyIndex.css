@@ -306,12 +306,14 @@ a {
 .footer-title {
 	width: 3rem;
 	height: .24rem;
+	margin-bottom: .2rem;
 }
 .left {
 	margin-bottom: .3rem;
 }
 .footer-title img {
 	vertical-align: top;
+	height: 100%;
 }
 .col li {
 	height: .42rem;
@@ -332,4 +334,27 @@ a {
 	height: .40rem;
 	margin-bottom: .05rem;
 	background: url(https://www.sony.com.cn/etc/designs/sonyportal/image/index/sony_china_weibo.gif);
+	background-size: 100% auto;
+}
+.bottom-span {
+	height: .4rem;
+	line-height: .2rem;
+}
+.bottom-span span {
+	height: .2rem;
+	font-size: .1rem;
+	display: inline-block;
+	color: #3e3f43;
+	padding-left: .4rem;
+}
+.bottom-img {
+	text-align: center;
+	line-height: 1.32rem;
+}
+.bottom-img img {
+	width: 1.92rem;
+	
+}
+.bottom-span .badge,.bottom-span .honest {
+	margin-left: -.6rem;
 }
