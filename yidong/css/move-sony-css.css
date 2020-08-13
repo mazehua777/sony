@@ -1,0 +1,272 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+
+body{
+    text-align:center
+}
+
+#all{
+color:rgb(51, 51, 51);
+display: flex;
+width:4.89rem;
+margin: 0 auto;
+padding: 0;
+}
+
+.nav{
+    width: 4.89rem;
+    height: 0.58rem;
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+}
+
+.logo{
+    width: 4.122rem;
+    height: 0.58rem;
+    display: flex;
+    background-color:black;
+    position: absolute;
+    left: 0;
+}
+
+.logo img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo-button{
+    width: 0.768rem;
+    height: 0.58rem;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    padding: auto;
+}
+
+.logo-button img{
+    margin: auto;
+}
+
+.logo-button:hover+ .menu{
+    display: block;
+}
+
+.menu{
+    width: 4.89rem;
+    height: 4.6rem;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 0.53rem;
+    display: none;
+    z-index: 99;
+}
+
+li{
+    list-style: none;
+}
+
+.list{
+    width: 4.89rem;
+    height: 4.6rem;
+}
+
+.list li{
+    height: 0.46rem;
+    width: 4.89rem;
+    border-bottom: 1px white;
+    display: block;
+}
+
+.menu-list a{
+    display: block;
+    display: flex;
+    font-size: 20px;
+    color: white;
+}
+
+.input_group{
+    display: block;
+    width: 4.89rem;
+    background-color:white;
+    margin: 0 auto;
+}
+
+.tit{
+    display: flex;
+    width: 4.89rem;
+    height: 1.36rem;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    font-size: .44rem;
+    color: black;
+    font-weight: 500;
+    margin-top: 0.3rem;
+    display: inline-block;
+    margin-bottom: 0;
+    position: relative;
+    top: -15px;
+}
+
+.help{
+    display: flex;
+    width: 4.89rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    font-size: .35rem;
+    color: black;
+    font-weight: 400;
+    margin-top: 0rem;
+    display: inline-block;
+    top: -50px;
+    position: relative;
+}
+
+.input-box{
+    width: 4.89rem;
+    display: flex;
+    background-color: white;
+    height: 0.7rem;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+
+.input-inner{
+    width: 3.12rem;
+    height: 0.5rem;
+    color: gray;
+    font-weight: 100;
+    display: block;
+    margin: 0 auto;
+    border:1px #4A9FDE ;
+    border-style:solid;
+}
+
+.input-box a{
+    display: block;
+    width: 0.8rem;
+    height: 0.52rem;
+    background-color:#4A9FDE ;
+    position: relative;
+    left: -.48rem;
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+    text-decoration: none;
+}
+
+.down{
+    width: 4.89rem;
+    height: 4rem;
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../img/backeground.png);
+    overflow: hidden;
+    position: relative;
+    top: -25px;
+}
+
+.down img{
+    position: relative;
+    top: -1rem;
+    width: 4.89rem;
+}
+
+.down a{
+    font-size: 0.20rem;
+    font-weight: 100;
+    display: block;
+    width: 4.89rem;
+    height: 0.4rem;
+    color: #4A9FDE;
+    text-align: left;
+}
+
+.common-tit{
+    display: flex;
+    width: 4.89rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    font-size: 0.4rem;
+    color:  black;
+    position: relative;
+    margin: 0 auto;
+    background-color:white;
+    display: inline;
+    text-align: center;
+    font-weight: 400;
+    top: -20px;
+}
+
+.content-menu{
+    width: 4.89rem;
+    height: 6.8rem;
+    margin: 0 auto;
+    display: flex;
+    background-color: #4A9FDE;
+    
+}
+
+.little-box{
+    width: 4.89rem;
+    height: 1.8rem;
+    display: flex;
+    font-size: 25px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.box-menu{
+    display: block;
+    width: 2.445rem;
+    height: 1.7rem;
+    font-size: 25px;
+    text-align: bottom;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.box-menu img{
+    height: 0.91rem;
+}
+
+.blue-box{
+    width: 4.89rem;
+    height: 1.66rem;
+    display: flex;
+    background-color: #EEF4F7;
+    margin: 0 auto 10px;
+    position: relative;
+}
+
+.blue-inner{
+    width: 1.26rem;
+    height: 1.66rem;
+    position: absolute;
+    left: 10px;
+}
+
+.blue-inner img{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.blue-a{
+    display: block;
+    width: 2.26rem;
+    height: 1.66rem;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #000;
+    line-height: 1.66rem;
+    position: absolute;
+    right:65px;
+    text-decoration: none;
+}
