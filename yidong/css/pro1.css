@@ -97,14 +97,14 @@
 
 .poster_text_content {
     display: block;
-    width: 570px;
+    width: 5.7rem;
     height: 35px;
     margin: 0 auto;
 }
 
 .poster_text_content h2 {
     font-family: Microsoft YaHei, sans-serif;
-    font-size: 32px;
+    font-size: 0.32rem;
     line-height: 35px;
     font-weight: 500;
     color: #fff;
