@@ -190,8 +190,7 @@ li{
 
 .common-tit{
     display: flex;
-    width: 4.89rem;
-    height: 0.7rem;
+    
     line-height: 0.7rem;
     font-size: 0.4rem;
     color:  black;
@@ -269,4 +268,163 @@ li{
     position: absolute;
     right:65px;
     text-decoration: none;
+}
+
+.else-part{
+    width: 4.89rem;
+    height: 1.15rem;
+    margin: 0 auto;
+    color: #C47529;
+    line-height: 1.15rem;
+    display: flex;
+    font-size: 29px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: -30px;
+}
+
+.long-menu1{
+     width: 3.50rem;
+     height: 4.38rem;
+     overflow: hidden;
+     display: flex;
+     margin: 0 auto;
+     background-image: url(../img/fun-img4\ \(1\).png);
+     position: relative;
+     margin-bottom: 0.3rem;  
+}
+
+.long-menu-inner{
+    display: block;
+    display: flex;
+    width: 3.58rem;
+    height:1.5rem;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.one{
+    display: block;
+    color: #666666;
+    font-size: .4rem;
+    text-align: center;
+    font-weight: 1000;
+    margin: 0.2rem auto;
+}
+
+.two{
+    display: block;
+    color: #999999;
+    font-size: .2rem;
+    text-align: center;
+    font-weight:100;
+    margin: 0 auto;
+
+}
+
+.long-menu2{
+    width: 3.50rem;
+    height: 4.38rem;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../img/software.png);
+    position: relative;
+    margin-bottom: 0.3rem;  
+}
+
+.long-menu3{
+    width: 3.50rem;
+    height: 4.38rem;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../img/product.png);
+    position: relative;
+    margin-bottom: 0.3rem;  
+}
+
+.long-menu4{
+    width: 3.50rem;
+    height: 4.38rem;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../img/tv.png);
+    position: relative;
+    margin-bottom: 0.3rem;  
+}
+
+.long-menu5{
+    width: 3.50rem;
+    height: 4.38rem;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../img/home.png);
+    position: relative;
+    margin-bottom: 0.3rem;  
+}
+
+.long-menu6{
+    width: 3.50rem;
+    height: 4.38rem;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../img/trade.png);
+    position: relative;
+    margin-bottom: 0.3rem;  
+}
+
+.playbox{
+    width: 4.89rem;
+    height: 1.16rem;
+    display: flex;
+    margin: 0 auto;
+    background-color: #E1E8F0;
+}
+
+.playbox-tit{
+    width: 4.89rem;
+    height:1.16rem;
+    display: flex;
+    margin: 0 auto;
+    font-size: 0.4rem;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.16rem;
+    position: relative;
+    top: 0;
+}
+
+.picture-pat{
+    width: 4.89rem;
+    height: 2.50rem;
+    margin: 0.2rem auto;
+    background-color: #E1E8F0 ;
+}
+
+.picture-pat span{
+    border: #000 1px ;
+    border-style: solid;
+    font-size: 25px;
+    border-radius: 6px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 2.2rem;
+    height: 0.3rem;
+    display: block;
+    margin: 0.1rem auto 0.2rem;
+}
+
+.picture-pet img{
+    height:1.16rem;
 }
