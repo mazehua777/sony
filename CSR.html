@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/CSR.css">
+    <!-- <script src="./js/CSR.js"></script> -->
     <title>CSR首页</title>
 </head>
 
@@ -261,12 +262,14 @@
     <div class="banner_id">
         <div class="banner">
             <div class="banner_content">
-                <div class="banner_above">
-                    <div class="banner_screen">
-                        <img src="./img/banner_above1.jpg">
-                        <img src="./img/banner_above2.jpg">
-                        <img src="./img/banner_above3.jpg">
-                    </div>
+                <ul class="banner_above">
+                    <li name="bannerImg" style="opacity: 1;"><img src="./img/banner_above1.jpg"></li>
+                    <li name="bannerImg"><img src="./img/banner_above2.jpg"></li>
+                    <li name="bannerImg"><img src="./img/banner_above3.jpg"></li>
+                </ul>
+                <div class="banner_btn">
+                    <button class="btn_left">＜</button>
+                    <button class="btn_right">＞</button>
                 </div>
                 <div class="banner_below">
                     <div class="banner_below1"><a href="#">索尼梦想教室</a><img src="./img/banner_below1.jpg"></div>
@@ -486,6 +489,66 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let bannerImg = document.getElementsByName('bannerImg');
+        let btn_left = document.getElementsByClassName('btn_left')[0];
+        let btn_right = document.getElementsByClassName('btn_right')[0];
+        let index = 0;
+        let banner_below1 = document.getElementsByClassName('banner_below1')[0];
+        let banner_below2 = document.getElementsByClassName('banner_below2')[0];
+        let banner_below3 = document.getElementsByClassName('banner_below3')[0];
+
+        function clearOp() {
+            for (i = 0; i < bannerImg.length; i++) {
+                bannerImg[i].style.opacity = 0;
+            }
+            bannerImg[index].style.opacity = 1;
+        }
+
+        function banner() {
+            index = (++index > 2) ? 0 : index;
+            clearOp();
+        }
+        let bannerTime = setInterval('banner()', 3000);
+        // console.log(btn_left);
+        // console.log(btn_right);
+        btn_left.onclick = function () {
+            index = (--index < 0) ? 2 : index;
+            clearOp();
+        }
+        btn_right.onclick = function () {
+            banner();
+        }
+        // console.log(banner_below1);
+        banner_below1.onmousemove = function () {
+            clearInterval(bannerTime);
+            bannerImg[0].style.opacity = 1;
+            bannerImg[1].style.opacity = 0;
+            bannerImg[2].style.opacity = 0;
+        }
+        banner_below1.onmouseout = function () {
+            bannerTime = setInterval('banner()', 3000);
+        }
+        banner_below2.onmousemove = function () {
+            clearInterval(bannerTime);
+            bannerImg[0].style.opacity = 0;
+            bannerImg[1].style.opacity = 1;
+            bannerImg[2].style.opacity = 0;
+        }
+        banner_below2.onmouseout = function () {
+            bannerTime = setInterval('banner()', 3000);
+        }
+        banner_below3.onmousemove = function () {
+            clearInterval(bannerTime);
+            bannerImg[0].style.opacity = 0;
+            bannerImg[1].style.opacity = 0;
+            bannerImg[2].style.opacity = 1;
+        }
+        banner_below3.onmouseout = function () {
+            bannerTime = setInterval('banner()', 3000);
+        }
+    </script>
 </body>
 
 </html>

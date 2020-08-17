@@ -259,36 +259,40 @@
 .banner_above {
     width: 1000px;
     height: 270px;
-    overflow: hidden;
-    position: absolute;
+    padding: 0;
+    position: relative;
     z-index: 1;
 }
 
-.banner_screen {
-    width: 3000px;
+.banner_above>li {
+    list-style: none;
+    width: 1000px;
     height: 270px;
     position: absolute;
-    animation: 6s banner_play infinite;
+
+    opacity: 0;
+    transition: 0.7s;
 }
 
-@keyframes banner_play {
-    0% {}
-
-    33.33% {
-        transform: translateX(0);
-    }
-
-    67.66% {
-        transform: translateX(-1000px);
-    }
-
-    100% {
-        transform: translateX(-2000px);
-    }
+.banner_btn {
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    bottom: 60%;
 }
 
-.banner_screen img {
-    float: left;
+.banner_btn>button {
+    width: 30px;
+    height: 50px;
+    outline: none;
+    border: 0;
+    padding: 0;
+}
+
+.banner_btn>.btn_right {
+    float: right;
 }
 
 .banner_below {
@@ -297,7 +301,7 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 220px;
+    bottom: 30px;
     z-index: 2;
 }
 
